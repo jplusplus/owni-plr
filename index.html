@@ -879,9 +879,20 @@ Comme tous les vendredis, je pars à la découverte de la créativité et du des
 
 			<p style="text-align: right;"><a href="">TO BE CONTINUED ... </a></p>
 		</div><!-- fin footer_autre --></footer>
-<script type='text/javascript' src='http://owni.fr/wp-content/themes/ooo/javascript/plugins/modernizr.custom.2.0.6.js,qver=2.0.6.pagespeed.jm.SuPbYKkzfV.js'></script>
-<script type='text/javascript' src='http://owni.fr/wp-content/themes/ooo/javascript/script-combined.js,qver=2.9.2.pagespeed.jm.8s0tTtv6IM.js'></script>
-		<script></script></body>
+		<script type='text/javascript' src='http://owni.fr/wp-content/themes/ooo/javascript/plugins/modernizr.custom.2.0.6.js,qver=2.0.6.pagespeed.jm.SuPbYKkzfV.js'></script>
+		<script type='text/javascript' src='http://owni.fr/wp-content/themes/ooo/javascript/script-combined.js,qver=2.9.2.pagespeed.jm.8s0tTtv6IM.js'></script>
+		<script type='text/javascript'>
+			$(function() {
+				$("a[href*='http://']:not([href*='"+location.hostname.replace("www.","")+"'])").each(function() {
+					$(this).click(function(event) {
+						event.preventDefault();
+						event.stopPropagation();
+						window.open(this.href, '_blank');
+					});
+				});
+			});
+		</script>
+	</body>
 </html>
 
 
