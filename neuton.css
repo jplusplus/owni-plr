@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Neuton';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Neuton Light'), local('Neuton-Light'), url(s/neuton/v8/Q7Fajoru_szZ8E8kkCnTxqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Neuton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Neuton Regular'), local('Neuton-Regular'), url(s/neuton/v8/2yfL00UA7vu40fNHPnbJgw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Neuton';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Neuton Bold'), local('Neuton-Bold'), url(s/neuton/v8/MK-qWv3o5LiGs6rxlk2eu6CWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Neuton';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Neuton Extrabold'), local('Neuton-ExtraBold'), url(s/neuton/v8/SLchCroJwYIfYhi7deprmKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Neuton';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Neuton Italic'), local('Neuton-Italic'), url(s/neuton/v8/U9c6hBWGC7PQLFQPgrjaM_esZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
