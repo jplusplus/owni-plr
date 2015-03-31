@@ -823,6 +823,18 @@
 						window.open(this.href, '_blank');
 					});
 				});
+
+				$('a').click(function() {
+					var href = $.attr(this, 'href');
+					if(href.indexOf("#") === 0) {
+						$('html, body').animate({
+							scrollTop: $(href).offset().top
+						}, 500, function () {
+							window.location.hash = href;
+						});
+						return false;
+					}
+				});
 			});
 
 			(function(p,i,r,h,o,O){p.GoogleAnalyticsObject=h;p[h]||(p[h]=
